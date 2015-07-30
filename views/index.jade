@@ -1,0 +1,12 @@
+extends layout
+
+block content
+	h1 Hello Boulder!
+
+	a#get-heroes(href="javascript:void(0);") Get the heroes!
+
+	form#hero-create
+		input(name="name", placeholder="Hero Name")
+		input(name="superPowers", placeholder="Superpowers")
+		input(name="cape", type="checkbox")
+		input(type="submit")
